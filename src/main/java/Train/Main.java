@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
 
@@ -13,6 +14,7 @@ public class Main {
     public static void main(String[] args)
     {
 try{
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter  the location of Input file information to generate the customers trips and total costings ...");
         String PathFileInput=scanner.next();
